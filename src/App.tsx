@@ -1,16 +1,16 @@
 
-import './App.css'
+import { Button } from "@/components/ui/button"
 
-function App() {
+export const App = () => {
 
   return (
     <>
       <main>
         <h1>Seja bem vindo! :)</h1>
         <p>Terceiro Desafio: Formulário de Cadastro de Membros</p>
+        <Button>HI</Button>
       </main>
     </>
   );
 }
 
-export default App
