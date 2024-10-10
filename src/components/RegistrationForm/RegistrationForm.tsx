@@ -22,6 +22,7 @@ import {
 import { SunIcon, MoonIcon } from "@heroicons/react/outline";
 import { Toaster } from "@/components/ui/toaster";
 import { useToast } from "@/hooks/use-toast";
+import { Footer } from "../Footer";
 
 const formSchema = z.object({
   fullName: z.string(),
@@ -54,8 +55,6 @@ const formSchema = z.object({
   github: z.string().optional(),
 });
 
-
-
 type FormData = z.infer<typeof formSchema>;
 
 export function RegistrationForm() {
@@ -83,6 +82,7 @@ export function RegistrationForm() {
       });
     }
   };
+
 
   const toggleTheme = () => {
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
@@ -194,7 +194,7 @@ export function RegistrationForm() {
           </form>
         </Form>
       </div>
-
+      <Footer />
       <Toaster />
     </div>
   );
