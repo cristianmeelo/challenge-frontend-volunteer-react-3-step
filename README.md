@@ -1,10 +1,9 @@
-
 # Terceiro Desafio: Formulário de Cadastro de Membros - Processo Seletivo Frontend Fusion - [vaga voluntária]
 
-> OBS : Você receberá um e-mail com a data de início dos desafios, mas eles já estão disponíveis para acesso imediato. 
-Se ainda não preencheu o formulário, por favor, acesse o link para completá-lo.
-[Forms de inscrição](https://forms.gle/EJKDNKdmVZM3zQTr7)
-é importante está inscrito no formulário , pois o seu email precisa ser validado
+> OBS : Você receberá um e-mail com a data de início dos desafios, mas eles já estão disponíveis para acesso imediato.
+> Se ainda não preencheu o formulário, por favor, acesse o link para completá-lo.
+> [Forms de inscrição](https://forms.gle/EJKDNKdmVZM3zQTr7)
+> é importante está inscrito no formulário , pois o seu email precisa ser validado
 
 ## Objetivo
 
@@ -13,10 +12,12 @@ Desenvolver um formulário de cadastro de membros para o projeto Frontend Fusion
 ## Requisitos
 
 1. **Layout e Componentes:**
+
    - Utilize React para criar os componentes necessários para o formulário.
    - Desenvolva um layout limpo e responsivo utilizando Tailwind CSS ou outra biblioteca de sua escolha. 🎨
 
 2. **Campos do Formulário:**
+
    - Nome completo (obrigatório) 🗣️
    - E-mail (obrigatório, com validação de formato) 📧
    - Telefone (obrigatório) 📞
@@ -40,14 +41,17 @@ Desenvolver um formulário de cadastro de membros para o projeto Frontend Fusion
    - GitHub (opcional) 🐙
 
 3. **Validação de Dados:**
+
    - Utilize Yup ou Zod para validar os campos obrigatórios e opcionais.
    - Implemente validação de formato para o campo de e-mail. ✅
 
 4. **Armazenamento Local:**
+
    - Ao cadastrar um membro, salve os dados no `localStorage` ou `sessionStorage`. 💾
    - Exiba mensagens de sucesso ou erro após salvar os dados localmente. 🗨️
 
 5. **Mensagens de Estado:**
+
    - Exiba mensagens para indicar o estado do cadastro, como "Cadastro realizado com sucesso!" ou "Falha ao cadastrar. Verifique os dados informados." 🚦
 
 6. **Documentação e Deploy:**

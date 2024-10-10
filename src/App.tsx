@@ -1,16 +1,11 @@
-
-import { Button } from "@/components/ui/button"
+import { RegistrationForm } from './components/RegistrationForm/RegistrationForm';
 
 export const App = () => {
-
   return (
     <>
       <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Terceiro Desafio: Formulário de Cadastro de Membros</p>
-        <Button>HI</Button>
+        <RegistrationForm />
       </main>
     </>
   );
-}
-
+};
