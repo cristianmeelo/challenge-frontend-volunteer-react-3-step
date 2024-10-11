@@ -1,10 +1,6 @@
-
 export const Footer: React.FC = () => {
-
   return (
-    <footer
-      className='flex justify-between items-center font-manrope text-orange-600'
-    >
+    <footer className="flex justify-between items-center font-manrope text-orange-600">
       <span className="text-[36px]" aria-label="Nome do usuário">
         cristian melo.
       </span>
