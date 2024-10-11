@@ -11,9 +11,9 @@
   </tr>
 </table>
 
-![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail-en.png?raw=true)
+![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react-3-step/blob/master/thumbnail-en.png?raw=true)
 
-![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail-mockup.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react-3-step/blob/master/thumbnail-mockup.png?raw=true#vitrinedev)
 
 <div align="center">
 <a href="https://challenge-frontend-volunteer-react-form.vercel.app/">
