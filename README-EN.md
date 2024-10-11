@@ -11,12 +11,12 @@
   </tr>
 </table>
 
-![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail.png?raw=true)
+![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail-en.png?raw=true)
 
 ![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail-mockup.png?raw=true#vitrinedev)
 
 <div align="center">
-<a href="https://challenge-frontend-volunteer-react-gallery.vercel.app/">
+<a href="https://challenge-frontend-volunteer-react-form.vercel.app/">
   <img src="https://img.shields.io/badge/-CHECK%20HERE-lightblue"
   alt="Image App" >
 </a>
@@ -24,29 +24,35 @@
 
 <br/>
 
-# Presentation
+# Registration FFF
 
-A technical test in the frontend fusion selection process that aims to obtain a volunteer position, with the challenge being to develop a presentation about myself.
+A technical test in the frontend merger selection process that aims to achieve a voluntary load, the challenge being to develop a registration form for new FF members.
 
 ## 🔨 Project features
 
-This challenge was created to assess developing React skills and the ability to create a personal presentation page. Here are the adapted features:
+The challenge consists of developing a member registration form for the Frontend Fusion project, using React, data validation with Yup or Zod, and saving the data locally using sessionStorage or localStorage. For user feedback, a toast with an informative message was implemented.  The input data is presented below:
 
-- Your name
-- A brief description about you
-- Your skills
-- Your recent projects
-- Links to your social networks (LinkedIn, GitHub, etc.)
-
-To stand out, we recommend implementing the following differentiators:
-
-- Tailwind CSS: Use Tailwind CSS to style your page.
-- State Managers: Use state managers such as Redux or Context API to manage the application state.
-- Responsiveness: Make sure your page is fully responsive and works well on different devices.
-- Good Code Practices: Follow good code practices, such as file organization, reusable components and proper use of - hooks.
-- Accessibility: Implement good accessibility practices to ensure that your page can be used by everyone.
-- Animations and Transitions: Add animations and transitions to improve user experience.
-- Semantic Commits: Use semantic commits to maintain a clear and organized commit history.
+- Full name (required) 🗣️
+- Email (required, with format validation) 📧
+- Telephone (required) 📞
+- Desired position (mandatory, selection from a pre-defined list):
+    Frontend Developer
+    Backend Developer
+    Full Stack Developer
+    Mobile Developer
+    Software Developer
+    Software Engineer
+    Software Architect
+    UI/UX Designer
+    Systems Analyst
+    Programmer Analyst
+    DevOps Engineer
+    Data Engineer
+    QA Engineer
+    Scrum Master
+    Product Owner
+    LinkedIn (optional) 🌐
+    GitHub (optional) 🐙
 
 ## ⚙️ Techniques and technologies used
 
@@ -55,9 +61,10 @@ Check out this list of everything we will use in this app:
 - `Vite`
 - `TypeScript`
 - `TailwindCSS`
-- `React Audio Player`
-- `React Icons`
-- `Vercel Deployment`
+- `Shadcn`
+- `Zod`
+- `React-hook-form`
+- `Hero Icons`
 - `GitHub`
 
 ## 🛠️ Open and run the project
@@ -68,11 +75,11 @@ Then go to <a href="http://localhost:5173/">http://localhost:5173/</a> in your b
 
 ## 📚 More tutorial information
 
-A curious part of the development stage was that the audio file was generated in [google notebooklm](https://notebooklm.google/), it is a personalized AI research assistant, developed with the most advanced model of Google, Gemini 1.5 Pro. In the services offered by NotebookLM, you can upload your resume and ask the AI ​​to generate an audio file, creating this discussion/podcast format. I thought it was sensational, and it works for any file or subject of interest. For design inspiration, I found and adapted from [figma](https://www.figma.com/design/4W0YDUCUlYutYHjagjHCe7/Portfolio-Frontend-Minimal-(Community)?node-id=0-1&node-type=canvas&t=AvTyiEplOSUmG5SA -0) the art of Marcos Oliveira. The full description of the requirements/challenge can be found [here](https://github.com/Projeto-FrontEnd-Fusion/.seguracao-pessoal-frontend).
+Forms are the bread and butter (Brazilian expression) of the frontend developer. So why not try a different style library to spice up your toolbox? I had already heard good things about [shadcn](https://ui.shadcn.com/), and I really felt the power of the tool. Extremely easy to use, and I feel like it scales well. To validate the form, I used Zod. I hadn't tested it yet, but, using [react-hook-form](https://www.react-hook-form.com/get-started/), I normally wouldn't use another external library, as I believe it can handle the I work alone. However, depending on the project requirements, I used it. [Yup](https://github.com/jquense/yup) had already tested it previously. For notification, I usually use [react-toastify](https://fkhadra.github.io/react-toastify/introduction/), but I have to admit that shadcn's toast is really cool! So this project served to really experiment with me in different areas...
 
 | :placard: Vitrine.Dev |                                                                                                                |
 | --------------------- | -------------------------------------------------------------------------------------------------------------- |
-| :sparkles: Name       | **Presentation**                                                                                               |
-| :label: Technologies  | Vite, Typescript, TailwindCSS, React Audio Player, React Icons, Vercel Deployment, GitHub ( used Technologies) |
-| :rocket: URL          | https://cristian-melo-developer.vercel.app/                                                                    |
+| :sparkles: Name       | **Registration FFF**                                                                                               |
+| :label: Technologies  | Vite, Typescript, Shadcn, TailwindCSS, Zod, react-hook-form, Heroicons, GitHub ( used Technologies) |
+| :rocket: URL          | https://challenge-frontend-volunteer-react-form.vercel.app/                                                                    |
 | :fire: Challenge      | https://github.com/Projeto-FrontEnd-Fusion/.apresentacao-pessoal-frontend                                      |
